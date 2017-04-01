@@ -17,10 +17,6 @@ namespace CurrymeanAuthService
         public Employee JSONData(string id, string password)
         {
             Employee em = new Employee();
-            //em.address = "sample address";
-            //em.code = "code";
-            //em.id = "code";
-            //em.name = "sandeep";
             return em;
         }
 
