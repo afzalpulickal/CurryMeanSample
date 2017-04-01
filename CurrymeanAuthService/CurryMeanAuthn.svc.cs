@@ -80,7 +80,10 @@ namespace CurrymeanAuthService
 
             return res;
         }
-
+        /// <summary>
+        /// this is a sample service creation for tree view
+        /// </summary>
+        /// <returns></returns>
         public List<Tree> getData() {
             List<Tree> treeList = new List<Tree>();
             Tree tr = new Tree();
@@ -98,7 +101,7 @@ namespace CurrymeanAuthService
             tr2.children = new List<Tree>();
             tr.children.Add(tr2);
             treeList.Add(tr);
-            return treeList;
+            return treeList;     
         }
     }
       
