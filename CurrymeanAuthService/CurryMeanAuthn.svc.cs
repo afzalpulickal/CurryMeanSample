@@ -45,7 +45,7 @@ namespace CurrymeanAuthService
             }
             conn.Close();
             return empArray;
-            //Employee em = new Employee();
+            //Employee em = new Employee();   //sample
             //em.address = 
             //em.code = "code2";
             //em.id = "code2";
